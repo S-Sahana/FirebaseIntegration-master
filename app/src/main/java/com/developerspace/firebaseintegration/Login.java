@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.print.PrinterId;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -22,7 +23,7 @@ import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseUser;
 
-public class Login extends Activity implements View.OnClickListener{
+public class Login extends AppCompatActivity implements View.OnClickListener{
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener mListener;
     EditText Emailid;
