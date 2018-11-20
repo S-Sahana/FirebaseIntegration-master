@@ -14,7 +14,7 @@
         android:layout_marginStart="192dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="191dp"
-        android:layout_marginBottom="386dp"
+        android:layout_marginBottom="330dp"
         android:fontFamily="casual"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
